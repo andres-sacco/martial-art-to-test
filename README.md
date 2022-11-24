@@ -62,3 +62,11 @@ Many free tools support Kotlin development. Here are two you may like:
 - [Eclipse](https://www.eclipse.org/downloads/) – Eclipse is another IDE option for Kotlin development. Most plugins are free and have a vast community of developers who frequently update them. Take into consideration that to use Kotlin on this IDE, you need to install a plugin, you can follow the instructions on the [official webpage](https://kotlinlang.org/docs/eclipse.html) of Kotlin.
 
 Take into consideration that there are other IDE but according to [Snyk 2021 Report](https://res.cloudinary.com/snyk/image/upload/v1623860216/reports/jvm-ecosystem-report-2021.pdf), most of the JVM developers use Eclipse and Intellij, but the use of Visual Studio code is growing in the last year.
+
+
+## Further readings
+
+Here are some links where you can have more information about Karate. 
+- [Introduction to Karate](https://www.kloia.com/blog/step-1-introduction-to-karate-project-setup-hello-world) - Kloia
+- [Karate Structure](https://github.com/karatelabs/karate#script-structure)
+
