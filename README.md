@@ -37,3 +37,28 @@ If you have installed on your machine some of these tools previously or you inst
    % docker --version
    Docker version 18.09.0, build 369ce74a3c
    ````
+
+
+## FAQ
+
+**Which version of the JDK can I use on this project?**
+
+There is no restriction about which version, in particular, you need to consider that exist different alternatives to the JDK:
+* **OracleJDK**: This version was free until Java 11, after this version you can use it for development/test environments, but you need to pay a license to use it on production. This version of the JDK offers to you the most recent patches of bugs and new features because Oracle is the owner of the language.
+
+
+* **OpenJDK**: When Oracle bought Sun Microsystems created this as an open-source alternative that all the developers can use in any environment without restrictions. The main problem with this version is the patches of the bugs take time to appear in a case that is not critical.
+
+
+Take into consideration that there are other alternatives but according to [Snyk 2021 Report](https://res.cloudinary.com/snyk/image/upload/v1623860216/reports/jvm-ecosystem-report-2021.pdf), most of the developers use OpenJDK.
+
+
+**Which tools can I use for development?**
+
+Many free tools support Kotlin development. Here are two you may like:
+- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/) – IntelliJ is the most widely used IDE for Kotlin development. IntelliJ IDEA Community Edition provides everything you need to start Kotlin and Spring.
+
+
+- [Eclipse](https://www.eclipse.org/downloads/) – Eclipse is another IDE option for Kotlin development. Most plugins are free and have a vast community of developers who frequently update them. Take into consideration that to use Kotlin on this IDE, you need to install a plugin, you can follow the instructions on the [official webpage](https://kotlinlang.org/docs/eclipse.html) of Kotlin.
+
+Take into consideration that there are other IDE but according to [Snyk 2021 Report](https://res.cloudinary.com/snyk/image/upload/v1623860216/reports/jvm-ecosystem-report-2021.pdf), most of the JVM developers use Eclipse and Intellij, but the use of Visual Studio code is growing in the last year.
