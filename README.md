@@ -38,6 +38,10 @@ If you have installed on your machine some of these tools previously or you inst
    Docker version 18.09.0, build 369ce74a3c
    ````
 
+## Documentation of APIs
+
+The API has documentation to understand which parameters are required and the URL to invoke them. To see the API documentation is necessary to run each project and access to the [Swagger](http://localhost:6070/api/flights/catalog/documentation)
+
 
 ## FAQ
 
