@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  api-catalog:
+    image: adschosen/api-catalog:1.0.0
+    container_name: api-catalog
+    ports:
+     - 6070:6070
+    restart: always 
+    links:
+      - api-catalog-db 
+      
+  api-catalog-db:
+    container_name: api-catalog-db
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'flights_catalog'
+      MYSQL_ROOT_PASSWORD: 'muppet'
